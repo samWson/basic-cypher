@@ -18,21 +18,11 @@ pom.xml.asc
 
 # End of https://www.gitignore.io/api/clojure
 
-# Created by https://www.gitignore.io/api/leiningen
+# Project specific files and directories
 
-### Leiningen ###
-pom.xml
-pom.xml.asc
-*.jar
-*.class
-/lib/
-/classes/
-/target/
-/checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
-.nrepl-port
-
-# End of https://www.gitignore.io/api/leiningen
+.hgignore
+CHANGELOG.md
+doc/
+project.clj
+src/
+test/
