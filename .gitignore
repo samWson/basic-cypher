@@ -17,12 +17,3 @@ pom.xml.asc
 .nrepl-port
 
 # End of https://www.gitignore.io/api/clojure
-
-# Project specific files and directories
-
-.hgignore
-CHANGELOG.md
-doc/
-project.clj
-src/
-test/
