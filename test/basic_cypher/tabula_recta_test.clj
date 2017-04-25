@@ -1,6 +1,6 @@
-(ns tabula-recta.core-test
+(ns basic-cypher.tablua-recta-test
   (:require [clojure.test :refer :all]
-            [tabula-recta.core :refer :all]))
+            [basic-cypher.tablua-recta :refer :all]))
 
 (deftest test-alphabet
   (testing "Alphabet generation"
