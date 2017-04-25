@@ -17,3 +17,8 @@ pom.xml.asc
 .nrepl-port
 
 # End of https://www.gitignore.io/api/clojure
+
+# Test files. No tracking required.
+
+plain
+key
