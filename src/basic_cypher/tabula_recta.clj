@@ -1,5 +1,4 @@
-(ns basic-cypher.tabula-recta
-  (:gen-class))
+(ns basic-cypher.tabula-recta)
 
 (def alphabet (map char (range (int \A) (inc (int \Z)))))
 
