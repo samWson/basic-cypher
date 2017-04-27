@@ -2,15 +2,24 @@
   (:require [basic-cypher.tabula-recta :as tr])
   (:gen-class))
 
-(defn get-name
-  "Return a string from stdin."
+;; This function is made redundent by read-file
+;; (defn get-name
+;;   "Return a string from stdin."
+;;   []
+;;   (let [name (read-line)]
+;;     name))
+
+(defn read-file
+  "Return a string from a text file."
   []
-  (let [name (read-line)]
-    name))
+  (let [file (read-line)]
+    (str (slurp file))))
 
 (defn -main
   "I don't do a whole lot ... yet."
-  [& args])
+  [& args]
+  (println "Enter the file to encrypt: ")
+  )
 
 
 
