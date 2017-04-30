@@ -3,13 +3,6 @@
             [clojure.java.io :as io])
   (:gen-class))
 
-;; This function is made redundent by read-file
-;; (defn get-name
-;;   "Return a string from stdin."
-;;   []
-;;   (let [name (read-line)]
-;;     name))
-
 (defn read-file
   "Return a string from a text file."
   [file]
