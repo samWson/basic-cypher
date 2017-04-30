@@ -9,10 +9,19 @@
   (with-open [rdr (io/reader file)]
     (doall (line-seq rdr))))
 
+(defn get-input
+  "Prompts for input an returns a string from stdin"
+  [message]
+  (println message)
+  (read-line))
+
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Enter the file to encrypt: "))
-
+  (let [input (get-input "Enter the file to be encrypted: ")
+        key (get-input "Enter the key file: ")]
+   (do
+     (println (str "Plain: " input))
+     (println (str "Key: " key)))))
 
 
